@@ -1,0 +1,800 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+nav {
+  background-color: #3C3F42;
+  height: 64px;
+}
+@media (max-width: 768px) {
+  nav {
+    display: block;
+  }
+}
+nav .mal {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  background-color: #232323;
+  gap: 12px;
+  width: 314px;
+  height: 62px;
+  padding: 0px 0px 0px 16px;
+}
+nav .mal h4 {
+  font-size: 16px;
+}
+nav .mal .fa-bars {
+  font-size: 18px;
+}
+nav form {
+  position: relative;
+}
+nav form input {
+  height: 40px;
+  padding: 0px 16px;
+  width: 590px;
+  border: none;
+  color: #504949;
+  font-size: 0.875rem;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+nav form .fa-magnifying-glass {
+  position: absolute;
+  top: 21px;
+  left: 564px;
+  right: 0;
+}
+nav .hesab {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  color: #fff;
+  margin-top: 13px;
+  gap: 7px;
+}
+nav .hesab .fa-circle-user {
+  font-size: 24px;
+}
+nav .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 17px;
+}
+
+header .head {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 23px 0px;
+}
+header .head .logo_img {
+  width: 152px;
+  height: 43px;
+}
+header .head .logo_img img {
+  width: 100%;
+  height: 100%;
+}
+header .head ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding: 0;
+}
+header .head ul li {
+  list-style: none;
+  font-size: 14px;
+  color: #53595c;
+  margin: 0px 18px 0px 0px;
+}
+header .head .zeng {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .head .zeng span {
+  font-size: 32px;
+  color: #232222;
+  font-weight: 600;
+  margin-right: 8px;
+}
+header .head .zeng .word p, header .head .zeng .word #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq header .head .zeng .word .p3 {
+  font-size: 12px;
+  color: #53595c;
+  margin: 0;
+}
+header .head .zeng .word .time {
+  font-size: 12px;
+  color: #232222;
+  font-weight: bold;
+}
+header .head .dil {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+header .head .dil p, header .head .dil #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq header .head .dil .p3 {
+  border-right: 1px solid gray;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 2px 0px 4px;
+  font-size: 14px;
+}
+header .head .dil span {
+  font-size: 14px;
+}
+
+#banner ul {
+  text-decoration: none;
+  width: 314px;
+  flex-shrink: 0;
+  padding: 14px 0px 7px 22px;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+#banner ul li {
+  list-style: none;
+  font-size: 14px;
+  padding: 7px 0px 0px 0px;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+}
+#banner ul li .fa-mobile-screen-button {
+  font-size: 18px;
+}
+#banner .banner_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 317px;
+  height: 132px;
+  background: #ededee;
+  border-radius: 4px;
+}
+#banner .banner_item .banner_img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#banner .banner_item .catdirilma {
+  margin: 0px 0px 0px 16px;
+}
+#banner .banner_item .catdirilma h4 {
+  font-size: 16px;
+  color: #232222;
+  font-weight: bold;
+}
+#banner .banner_item .catdirilma span {
+  color: #53595c;
+  font-size: 14px;
+}
+#banner .yeni, #banner3 .card .card_body .yenilik #banner .stok, #banner3 .card .card_body .yenilik #banner .taksit, #banner3 .card .card_body .yenilik #banner .aksiya, #banner3 .card .card_body .yenilik #banner .edv, #banner .card .card_body .yenilik .stok, #banner .card .card_body .yenilik .taksit, #banner #banner3 .card .card_body .yenilik .aksiya, #banner3 #banner .card .card_body .yenilik .aksiya, #banner .card .card_body .yenilik .edv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 14px;
+  margin: 50px 0px 20px 0px;
+}
+#banner .yeni h4, #banner3 .card .card_body .yenilik #banner .stok h4, #banner3 .card .card_body .yenilik #banner .taksit h4, #banner3 .card .card_body .yenilik #banner .aksiya h4, #banner3 .card .card_body .yenilik #banner .edv h4, #banner .card .card_body .yenilik .stok h4, #banner .card .card_body .yenilik .taksit h4, #banner #banner3 .card .card_body .yenilik .aksiya h4, #banner3 #banner .card .card_body .yenilik .aksiya h4, #banner .card .card_body .yenilik .edv h4 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #232222;
+}
+#banner .yeni .icon, #banner3 .card .card_body .yenilik #banner .stok .icon, #banner3 .card .card_body .yenilik #banner .taksit .icon, #banner3 .card .card_body .yenilik #banner .aksiya .icon, #banner3 .card .card_body .yenilik #banner .edv .icon, #banner .card .card_body .yenilik .stok .icon, #banner .card .card_body .yenilik .taksit .icon, #banner #banner3 .card .card_body .yenilik .aksiya .icon, #banner3 #banner .card .card_body .yenilik .aksiya .icon, #banner .card .card_body .yenilik .edv .icon {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+}
+#banner .yeni .icon p, #banner3 .card .card_body .yenilik #banner .stok .icon p, #banner3 .card .card_body .yenilik #banner .taksit .icon p, #banner3 .card .card_body .yenilik #banner .aksiya .icon p, #banner3 .card .card_body .yenilik #banner .edv .icon p, #banner .yeni .icon #banner2 .secim .secim_head .avadanliq .p3, #banner3 .card .card_body .yenilik #banner .stok .icon #banner2 .secim .secim_head .avadanliq .p3, #banner3 .card .card_body .yenilik #banner .taksit .icon #banner2 .secim .secim_head .avadanliq .p3, #banner3 .card .card_body .yenilik #banner .aksiya .icon #banner2 .secim .secim_head .avadanliq .p3, #banner3 .card .card_body .yenilik #banner .edv .icon #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq #banner .yeni .icon .p3, #banner3 .card .card_body .yenilik #banner2 .secim .secim_head .avadanliq #banner .stok .icon .p3, #banner3 .card .card_body .yenilik #banner2 .secim .secim_head .avadanliq #banner .taksit .icon .p3, #banner3 .card .card_body .yenilik #banner2 .secim .secim_head .avadanliq #banner .aksiya .icon .p3, #banner3 .card .card_body .yenilik #banner2 .secim .secim_head .avadanliq #banner .edv .icon .p3, #banner .card .card_body .yenilik .stok .icon p, #banner .card .card_body .yenilik .stok .icon #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq #banner .card .card_body .yenilik .stok .icon .p3, #banner .card .card_body .yenilik .taksit .icon p, #banner #banner3 .card .card_body .yenilik .aksiya .icon p, #banner3 #banner .card .card_body .yenilik .aksiya .icon p, #banner .card .card_body .yenilik .taksit .icon #banner2 .secim .secim_head .avadanliq .p3, #banner #banner3 .card .card_body .yenilik .aksiya .icon #banner2 .secim .secim_head .avadanliq .p3, #banner3 #banner .card .card_body .yenilik .aksiya .icon #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq #banner .card .card_body .yenilik .taksit .icon .p3, #banner2 .secim .secim_head .avadanliq #banner #banner3 .card .card_body .yenilik .aksiya .icon .p3, #banner3 #banner2 .secim .secim_head .avadanliq #banner .card .card_body .yenilik .aksiya .icon .p3, #banner .card .card_body .yenilik .edv .icon p, #banner .card .card_body .yenilik .edv .icon #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq #banner .card .card_body .yenilik .edv .icon .p3 {
+  font-size: 14px;
+  color: #53595c;
+}
+#banner .yeni .icon .fa-arrow-right, #banner3 .card .card_body .yenilik #banner .stok .icon .fa-arrow-right, #banner3 .card .card_body .yenilik #banner .taksit .icon .fa-arrow-right, #banner3 .card .card_body .yenilik #banner .aksiya .icon .fa-arrow-right, #banner3 .card .card_body .yenilik #banner .edv .icon .fa-arrow-right, #banner .card .card_body .yenilik .stok .icon .fa-arrow-right, #banner .card .card_body .yenilik .taksit .icon .fa-arrow-right, #banner #banner3 .card .card_body .yenilik .aksiya .icon .fa-arrow-right, #banner3 #banner .card .card_body .yenilik .aksiya .icon .fa-arrow-right, #banner .card .card_body .yenilik .edv .icon .fa-arrow-right {
+  color: #53595c;
+}
+#banner .card {
+  position: relative;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  #banner .card {
+    width: 100%;
+  }
+}
+#banner .card .card_head .card_img, #banner .card .card_head .card_img3 {
+  width: 210px;
+  height: 220px;
+  margin: 96px 0px 0px 44px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#banner .card .card_head .card_img img, #banner .card .card_head .card_img3 img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#banner .card .card_head .card_img3 {
+  width: 108px;
+  height: 220px;
+  margin-left: 96px;
+}
+#banner .card .card_head .card_img3 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#banner .card .card_head .icons {
+  position: absolute;
+  top: 29px;
+  left: 214px;
+  right: 0;
+}
+#banner .card .card_head .icons .fa-heart,
+#banner .card .card_head .icons .fa-scale-unbalanced {
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+  color: #85898b;
+}
+#banner .card .card_body .yenilik {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  padding: 28px 0px 0px 20px;
+}
+#banner .card .card_body .yenilik .yeni, #banner .card .card_body .yenilik .stok, #banner .card .card_body .yenilik .taksit, #banner #banner3 .card .card_body .yenilik .aksiya, #banner3 #banner .card .card_body .yenilik .aksiya, #banner .card .card_body .yenilik .edv {
+  font-weight: 500;
+  font-size: 0.6875rem;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgb(37, 174, 96);
+  width: 65px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#banner .card .card_body .yenilik .taksit, #banner #banner3 .card .card_body .yenilik .aksiya, #banner3 #banner .card .card_body .yenilik .aksiya, #banner .card .card_body .yenilik .edv {
+  background-color: rgb(140, 98, 161);
+  width: 73px;
+  height: 20px;
+}
+#banner .card .card_body .yenilik .stok {
+  background-color: rgba(37, 174, 96, 0.1);
+  color: rgb(37, 174, 96);
+  width: 80px;
+}
+#banner .card .card_body .yenilik .edv {
+  background-color: rgb(23, 104, 201);
+  width: 80px;
+}
+#banner .card .card_body p, #banner .card .card_body #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq #banner .card .card_body .p3 {
+  font-size: 0.875rem;
+  color: #232222;
+  text-overflow: ellipsis;
+  margin: 8px 17px;
+}
+#banner .card .card_body .body_final {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin: 0px 0px 30px 15px;
+}
+#banner .card .card_body .body_final .star {
+  font-size: 15px;
+  display: flex;
+}
+#banner .card .card_body .body_final .star .fa-star {
+  color: rgba(128, 128, 128, 0.2392156863);
+}
+#banner .card .card_body .body_final span {
+  color: #85898b;
+  font-size: 12px;
+}
+#banner .card .card_footer {
+  margin: 0px 0px 0px 13px;
+}
+#banner .card .card_footer span {
+  font-size: 24px;
+  font-weight: bold;
+}
+#banner .card .card_footer .fa-cart-shopping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  background-color: #fff;
+  color: red;
+  font-size: 20px;
+  margin-left: 228px;
+}
+#banner .card .card_footer .son {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+#banner .card .card_footer .son .fa-clock {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  color: red;
+  font-size: 12px;
+}
+#banner .card .card_footer .son p, #banner .card .card_footer .son #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq #banner .card .card_footer .son .p3 {
+  border-bottom: 1px dotted;
+  display: flex;
+  color: #53595c;
+  font-size: 12px;
+}
+
+#banner2 .secim {
+  margin: 64px 0px 0px 0px;
+  max-width: 1344px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 100%;
+}
+#banner2 .secim .secim_head .max {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 54px;
+}
+#banner2 .secim .secim_head .max h2 {
+  font-size: 40px;
+  color: #ec2127;
+  margin: 40px 0 12px;
+  font-weight: 700;
+}
+#banner2 .secim .secim_head .max h2 span {
+  color: #0c61d5;
+}
+#banner2 .secim .secim_head .max .secim_img {
+  max-width: 114px;
+  height: 75px;
+}
+#banner2 .secim .secim_head .max .secim_img img {
+  width: 100%;
+  height: 100%;
+}
+#banner2 .secim .secim_head .avadanliq {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+  margin: 0px 0px 0px 51px;
+}
+#banner2 .secim .secim_head .avadanliq .p1 {
+  color: #fff;
+  background-color: #0c61d5;
+  height: 30px;
+  text-align: center;
+  width: 150px;
+  font-weight: 500;
+}
+#banner2 .secim .secim_head .avadanliq p, #banner2 .secim .secim_head .avadanliq .p3 {
+  background: #eaf0f8;
+  border-radius: 20px;
+  height: 30px;
+  text-align: center;
+  width: 189px;
+  font-weight: 500;
+}
+#banner2 .secim .secim_head .avadanliq .p3 {
+  width: 240px;
+}
+#banner2 .secim .secim_foot {
+  background: #ffa319 no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#banner2 .secim .secim_foot .foot_left ul li {
+  color: #fff;
+}
+#banner2 .secim .secim_foot .foot_left .hour {
+  overflow: hidden;
+  border-radius: 16px;
+  padding: 12px 26px;
+  background-color: #fed237;
+  color: black;
+  font-weight: 900;
+}
+#banner2 .secim .secim_foot .foot_left .hour h4 {
+  font-size: 12px;
+}
+#banner2 .secim .secim_foot .foot_left .hour span {
+  font-size: 28px;
+  font-weight: 700;
+}
+#banner2 .secim .secim_foot .foot_left .hour span .saat {
+  color: red;
+}
+#banner2 .secim .secim_foot .foot_right {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner2 .secim .secim_foot .foot_right .left {
+  width: 238px;
+  height: 238px;
+}
+#banner2 .secim .secim_foot .foot_right .left img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#banner2 .secim .secim_foot .foot_right .right h3 {
+  font-size: 20px;
+}
+#banner2 .secim .secim_foot .foot_right .right .body_final {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  gap: 10px;
+}
+#banner2 .secim .secim_foot .foot_right .right .body_final .star {
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+}
+#banner2 .secim .secim_foot .foot_right .right .body_final .star .fa-star {
+  color: #fed237;
+  width: 20px;
+  height: 20px;
+}
+#banner2 .secim .secim_foot .foot_right .right .body_final span {
+  color: #85898b;
+  font-size: 0.875rem;
+}
+#banner2 .secim .secim_foot .foot_right .right .qiymet .sp1 {
+  color: #ec2127;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+#banner2 .secim .secim_foot .foot_right .right .qiymet .sp2 {
+  color: #85898b;
+  font-size: 16px;
+  text-decoration-line: line-through;
+}
+#banner2 .secim .secim_foot .foot_right .right .qiymet .sp3 {
+  color: #25ae60;
+  font-size: 14px;
+  font-weight: 500;
+}
+#banner2 .secim .secim_foot .foot_right .right .son {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+#banner2 .secim .secim_foot .foot_right .right .son .fa-clock {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  color: red;
+  font-size: 12px;
+}
+#banner2 .secim .secim_foot .foot_right .right .son p, #banner2 .secim .secim_foot .foot_right .right .son .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq .secim_foot .foot_right .right .son .p3 {
+  border-bottom: 1px dotted;
+  display: flex;
+  color: #53595c;
+  font-size: 12px;
+}
+#banner2 .secim .secim_foot .foot_right .right .btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 22px;
+}
+#banner2 .secim .secim_foot .foot_right .right .btn button {
+  padding: 0 34px;
+  height: 48px;
+  background-color: #ec2127;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+}
+#banner2 .secim .secim_foot .foot_right .right .btn p, #banner2 .secim .secim_foot .foot_right .right .btn .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq .secim_foot .foot_right .right .btn .p3 {
+  -webkit-text-decoration: underline dotted #53595c;
+          text-decoration: underline dotted #53595c;
+  text-underline-position: unset;
+  cursor: pointer;
+  color: #53595c;
+}
+#banner2 .brend {
+  margin: 94px 0px 94px 0px;
+}
+#banner2 .samsung {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner2 .samsung .img1 {
+  width: 176px;
+  height: 176px;
+}
+#banner2 .samsung .png {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#banner3 .card {
+  position: relative;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+#banner3 .card .card_head .card_img, #banner3 #banner .card .card_head .card_img3, #banner #banner3 .card .card_head .card_img3 {
+  width: 210px;
+  height: 220px;
+  margin: 96px 0px 0px 44px;
+}
+#banner3 .card .card_head .card_img img, #banner3 #banner .card .card_head .card_img3 img, #banner #banner3 .card .card_head .card_img3 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+}
+#banner3 .card .card_head .icons {
+  position: absolute;
+  top: 29px;
+  left: 214px;
+  right: 0;
+}
+#banner3 .card .card_head .icons .fa-heart,
+#banner3 .card .card_head .icons .fa-scale-unbalanced {
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+  color: #85898b;
+}
+#banner3 .card .card_body .yenilik {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  padding: 28px 0px 0px 20px;
+}
+#banner3 .card .card_body .yenilik .yeni, #banner3 .card .card_body .yenilik .stok, #banner3 .card .card_body .yenilik .taksit, #banner3 .card .card_body .yenilik .aksiya, #banner3 .card .card_body .yenilik .edv {
+  font-weight: 500;
+  font-size: 0.6875rem;
+  line-height: 110%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgb(253, 106, 0);
+  width: 65px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#banner3 .card .card_body .yenilik .taksit, #banner3 .card .card_body .yenilik .aksiya, #banner3 .card .card_body .yenilik .edv {
+  background-color: rgb(140, 98, 161);
+  width: 73px;
+  height: 20px;
+}
+#banner3 .card .card_body .yenilik .stok {
+  background-color: rgba(37, 174, 96, 0.1);
+  color: rgb(37, 174, 96);
+  width: 80px;
+}
+#banner3 .card .card_body .yenilik .edv {
+  background-color: rgb(23, 104, 201);
+  width: 80px;
+}
+#banner3 .card .card_body .yenilik .aksiya {
+  background-color: #ec2127;
+}
+#banner3 .card .card_body p, #banner3 .card .card_body #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq #banner3 .card .card_body .p3 {
+  font-size: 0.875rem;
+  color: #232222;
+  text-overflow: ellipsis;
+  margin: 8px 17px;
+}
+#banner3 .card .card_body .body_final {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin: 0px 0px 30px 15px;
+}
+#banner3 .card .card_body .body_final .star {
+  font-size: 15px;
+  display: flex;
+}
+#banner3 .card .card_body .body_final .star .fa-star {
+  color: rgba(128, 128, 128, 0.2392156863);
+}
+#banner3 .card .card_body .body_final .star1 {
+  font-size: 15px;
+  display: flex;
+}
+#banner3 .card .card_body .body_final .star1 .fa-star {
+  color: #ffa319;
+}
+#banner3 .card .card_body .body_final span {
+  color: #85898b;
+  font-size: 12px;
+}
+#banner3 .card .card_footer {
+  margin: 0px 0px 0px 13px;
+}
+#banner3 .card .card_footer .test {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 5px;
+}
+#banner3 .card .card_footer .test span {
+  font-size: 24px;
+  font-weight: bold;
+}
+#banner3 .card .card_footer .test .endirim {
+  font-size: 1.125rem;
+  color: #85898b;
+  text-decoration-line: line-through;
+}
+#banner3 .card .card_footer span {
+  font-size: 24px;
+  font-weight: bold;
+}
+#banner3 .card .card_footer .fa-cart-shopping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  background-color: #fff;
+  color: red;
+  font-size: 20px;
+  margin-left: 228px;
+}
+#banner3 .card .card_footer .son {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+#banner3 .card .card_footer .son .fa-clock {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  color: red;
+  font-size: 12px;
+}
+#banner3 .card .card_footer .son p, #banner3 .card .card_footer .son #banner2 .secim .secim_head .avadanliq .p3, #banner2 .secim .secim_head .avadanliq #banner3 .card .card_footer .son .p3 {
+  border-bottom: 1px dotted;
+  display: flex;
+  color: #53595c;
+  font-size: 12px;
+}
+
+#banner4 .abune {
+  margin: 74px 0px 74px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  padding: 52px 10px 52px 44px;
+}
+#banner4 .abune h1 {
+  font-size: 31px;
+  color: #232222;
+  font-weight: bold;
+}
+#banner4 .abune h1 span {
+  color: #ec2127;
+  font-size: 44px;
+  font-weight: bold;
+}
+#banner4 .abune ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#banner4 .abune form input {
+  padding: 8px 16px 0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  height: 48px;
+  border: 1px solid #e5e5e5;
+}
+#banner4 .abune form .icaze {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+#banner4 .abune form .icaze label {
+  font-size: 14px;
+}
+#banner4 .abune button {
+  align-items: center;
+  justify-content: center;
+  background-color: #ec2127;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  height: 48px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  margin: 50px 0 0 0;
+  background-color: #232222;
+  color: white;
+  padding: 30px 0;
+}
+footer li {
+  list-style: none;
+}
+footer h1 {
+  font-size: 32px;
+}
+footer h2 {
+  font-size: 16px;
+}
+footer .icons1 {
+  margin: 40px 0;
+  display: flex;
+  gap: 20px;
+}
+footer .icons1 i {
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
